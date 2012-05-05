@@ -1,0 +1,11 @@
+Developer Instructions:
+
+Recommended development settings.
+
+IDE - NetBeans
+MySQL - ( Not required presently)
+Smart Git 
+
+Clone the project
+Open netbeans project
+run the project

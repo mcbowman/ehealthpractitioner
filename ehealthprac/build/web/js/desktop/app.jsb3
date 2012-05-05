@@ -1,0 +1,94 @@
+{
+    "projectName": "Ext JS 4 Example - Desktop",
+    "licenseText": "Copyright(c) 2011 Sencha Inc.\nlicensing@sencha.com",
+    "builds": [
+        {
+            "name": "All Dependencies",
+            "target": "all-classes.js",
+            "compress": true,
+            "files": [
+                {
+                    "path": "js/",
+                    "name": "Module.js"
+                },
+                {
+                    "path": "",
+                    "name": "VideoWindow.js"
+                },
+                {
+                    "path": "",
+                    "name": "BogusModule.js"
+                },
+                {
+                    "path": "",
+                    "name": "BogusMenuModule.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "Desktop.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "App.js"
+                },
+                {
+                    "path": "",
+                    "name": "Settings.js"
+                },
+                {
+                    "path": "../extjs/src/tab/",
+                    "name": "Panel.js"
+                },
+                {
+                    "path": "",
+                    "name": "TabWindow.js"
+                },
+                {
+                    "path": "",
+                    "name": "SystemStatus.js"
+                },
+                {
+                    "path": "",
+                    "name": "Notepad.js"
+                },
+                {
+                    "path": "",
+                    "name": "GridWindow.js"
+                },
+                {
+                    "path": "",
+                    "name": "AccordionWindow.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "ShortcutModel.js"
+                },
+                {
+                    "path": "",
+                    "name": "App.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "Video.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "Wallpaper.js"
+                },
+                {
+                    "path": "",
+                    "name": "WallpaperModel.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "StartMenu.js"
+                },
+                {
+                    "path": "js/",
+                    "name": "TaskBar.js"
+                }
+            ]
+        }
+    ],
+    "resources": []
+}

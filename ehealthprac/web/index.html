@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Jaiinfotech&bull;eHealthPractitioner&bull;&beta;</title>
+    <link rel="stylesheet" type="text/css" href="js/extjs/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="js/desktop/css/desktop.css" />
+    <!-- GC -->
+    <script type="text/javascript" src="js/extjs/ext-all-debug-w-comments.js"></script>
+    <script type="text/javascript" src="js/desktop/all-classes.js"></script>
+    <script type="text/javascript">
+        Ext.Loader.setPath({
+            'Ext.ux.desktop': 'js',
+            MyDesktop: ''
+        });
+
+        Ext.require('MyDesktop.App');
+        var myDesktopApp;
+        Ext.onReady(function () {
+            myDesktopApp = new MyDesktop.App();
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
